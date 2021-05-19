@@ -16,7 +16,7 @@ header = Headers(
 ###############
 # change it accordingly (314 is for indore)
 DEST_CODE = 314
-PERIOD = 10 # 5 minutes
+PERIOD = 5 * 60 # 5 minutes
 toaster = ToastNotifier()
 
 def main():

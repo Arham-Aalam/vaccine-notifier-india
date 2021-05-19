@@ -27,7 +27,7 @@ def main():
     try:
         res = requests.get(url, headers=header.generate()).json()
         # print(res.keys())
-        res['centers'][0]['sessions'][0]['available_capacity_dose1'] = 5
+        # res['centers'][0]['sessions'][0]['available_capacity_dose1'] = 5
         for center in res['centers']:
             name = center['name']
             address = center['address']
